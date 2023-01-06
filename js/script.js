@@ -29,6 +29,10 @@ const saveTodo = (text) => {
     removeBtn.innerHTML = '<i class="fa-solid fa-xmark"></i>'
     todo.appendChild(removeBtn)
 
+    todoList.appendChild(todo);
+
+    todoInput.value = "";
+    todo.inputMode.focus();
 }
 
 // Eventos
