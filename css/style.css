@@ -1,0 +1,74 @@
+/* GERAL */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    color: #a88169;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../img/bg.png");
+    background-position: center;
+    background-size: cover;
+}
+button {
+    background-color: #FDFDFD;
+    color: #2f2322;
+    border: 2px solid #2f2322;
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+button:hover {
+    background-color: #613a2f;
+}
+button:hover > i {
+    color: #fff;
+}
+button i {
+    color: #613a2f;
+    font-weight: bold;
+    pointer-events: none;
+}
+input,
+select {
+    padding: 0.25rem 0.5rem;
+}
+
+.hide {
+    display: none;
+}
+
+/* Cancelar */
+#cancel-edit-btn {
+    color: #613a2f;
+    font-weight: bold;
+}
+#cancel-edit-btn:hover {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Todo Header */
+.todo-container {
+    max-width: 450px;
+    margin: 3rem auto 0;
+    background-color: #FDFDFD;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.todo-container header {
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Todo Form */
+#todo-form, #edit-form {
+    padding: 1rem;
+}
